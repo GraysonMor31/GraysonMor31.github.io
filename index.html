@@ -2,20 +2,21 @@
 <html>
 <head>
     <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         body {
             background-image: url("/Images/HomePage.jpg");
             background-size: cover;
             color: whitesmoke;
             font-family: "Rockwell", serif;
-            font-size: 16px;
+            font-size: 20px;
             line-height: 1.5;
-            margin: 15px;
-            padding: 0;
-            text-align: left;
+            margin: 40;
+            padding: 40;
+            text-align: center;
         }
         h1 {
-            margin-bottom: 10px;;
+            margin-bottom: 5 px;
         }
         nav {
             display: flex;
@@ -26,17 +27,37 @@
             color: whitesmoke;
             text-decoration: none;
             padding: 10px 20px;
-            border-radius: 5px;
             transition: background-color 0.3s;
+        }
+        nav a:hover {
+            color: #7786ff;
+        }
+        nav img {
+            width: 30px;
+            height: 30px;
+        }
+        .profile-photo {
+            width: 200px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        .social-links i {
+            margin: 0 10px;
         }
     </style>
 </head>
 <body>
     <nav>
         <a href="about.html">About Me</a>
-        <a href="projects.html">Projects</a>
-        <a href="skills.html">Skills</a>
         <a href="contact.html">Contact</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
         <a href="blog.html">Blog</a>
     </nav>
     <h1>Hi, I'm Grayson</h1>
@@ -44,5 +65,15 @@
        My focus is on Networks & Security, and I am also pursuing multiple certifications in the field. I'm looking for an internship or entry-level position in the IT or Cybersecurity field
        for the 2024 summer. Have a look around my site to learn more about me and my skills!
     </p>
+
+    <img src="Images/Me.jpg" alt="Grayson Profile Pic" class="profile-photo">
+
+    <div class="social-links">
+    <a href="https://github.com/GraysonMor31"><i class="fa fa-github" style="font-size:36px; color:whitesmoke"></i></a>
+    <a href="https://linkedin.com/in/graysonmorris31"><i class="fa fa-linkedin" style="font-size:36px; color:whitesmoke"></i></a>
+    <a href="https://twitter.com/graysonmorris01"><i class="fa fa-twitter" style="font-size:36px; color:whitesmoke"></i></a>
+    <a href="https://instagram.com/graysonmorris01_"><i class="fa fa-instagram" style="font-size:36px; color:whitesmoke"></i></a>
+    </div>
+    
 </body>
 </html>
