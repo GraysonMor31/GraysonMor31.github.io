@@ -1,70 +1,135 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <title>Home</title>
-    <style>
-        body {
-            background-color: #121212;
-        }
-        h1 {
-            color: #ffeeee;
-            justify-content: left;
-            margin-top: 0;
-            font-family: "Rockwell", serif;
-            font-size: 20px;
-        }
-        nav {
-            display: flex;
-            justify-content: right;
-            padding: 10px;
-            background-color: #121212;
-        }
-        nav a {
-            color: #fffeee;
-            padding: 10px 20px;
-            text-decoration: none;
-            font-family: "Rockwell", serif;
-            font-size: 15px;
-            transition: background-color 0.3s;
-        }
-        nav a:hover {
-            color: #777;
-        }
-        nav img {
-            width: 30px;
-            height: 30px;
-        }
-        .profile-photo {
-            width: 200px;
-            height: auto;
-            display: block;
-            margin: 0 auto;
-        }
-        .social-links {
-            display: flex;
-            justify-content: center;
-            padding: 10px;
-        }
-    </style>
-</head>
-<body>
-    <nav>
+<nav> 
+    <a href="index.html" class="separate-link">/* Grayson Morris */</a>
+    <div class="nav-links">
         <a href="about.html">About Me</a>
         <a href="education.html">Education</a>
         <a href="experience.html">Experience</a>
         <a href="skills.html">Skills</a>
         <a href="projects.html">Projects</a>
         <a href="contact.html">Contact</a>
-    </nav>
-    <h1>Grayson Morris</h1>
-    <p>
-    </p>
-    <img src="/Images/Me.png" alt="Grayson's photo" class="profile-photo">
-    <div class="social-links">
-        <a href="https://github.com/GraysonMor31"><i class="fa fa-github" style="font-size:36px"></i></a>
-        <a href="https://linkedin.com/in/graysonmorris31"><i class="fa fa-linkedin" style="font-size:36px"></i></a>
-        <a href="https://twitter.com/username"><i class="fa fa-twitter" style="font-size:36px"></i></a>
-        <a href="https://instagram.com/username"><i class="fa fa-instagram" style="font-size:36px"></i></a>
     </div>
-</body>
+</nav>
+
+<h1>Hi I'm Grayson <h1>
+    <p>I'm a senior computer science major. As well as an aspiring IT/Cybersecurity professional, who
+        loves to take on new challenges and solve complex problems head on. </p>
+<h2>What I Do:
+    <div class="devicon-icons">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" />
+        <img src="/Images/kalilinux-svgrepo-com (1).svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" />
+    </div>
+
+    <div class="list">
+        <ul>
+            <li>Backend Development</li>
+            <li>Cybersecurity</li>
+            <li>System Administration</li>
+            <li>Vulnerability Testing</li>
+        </ul>
+    </div>
+</h2>
+
+
+
+<style>
+    body{
+        background-color: #3C4142;
+    }
+
+    nav{
+        background-color: #3C4142;
+        color: #ccd0d3;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        text-decoration: none;
+    }
+
+    nav a{
+        color: #ccd0d3;
+        text-decoration: none;
+    }
+
+    nav a:hover{
+        color: gray;
+    }
+
+    .separate-link{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Freestyle Script", cursive;
+    margin-top: 25px;
+    font-size: 35px;
+    }
+
+    .nav-links{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        margin-top: 25px;
+        font-family: "Rockwell", serif;
+        font-size: 17.5px;
+    }
+
+    h1{
+        color: #ccd0d3;
+        font-family: "Rockwell", serif;
+        font-size: 35px;
+        text-align: left;
+        margin: 100px 475px 75px 25px;
+    }
+
+    p {
+        color: #ccd0d3;
+        font-family: "Rockwell", serif;
+        font-size: 25px;
+        text-align: left;
+        margin: -100px 175px 50px 0px;
+    }
+
+    h2 i {
+        color: #ccd0d3;
+        font-family: "Rockwell", serif;
+        font-size: 25px;
+        text-align: left;
+        margin-top: 100px;
+        vertical-align: middle;
+    }
+
+    .devicon-icons img{
+        margin-top: 50px;
+        width: 45px;
+        height: 45px;
+        margin: 0 10px;
+    }
+
+    .list{
+        margin-top: 25px;
+        margin-left: 25px;
+        font-family: "Rockwell", serif;
+        font-size: 20px;
+    }
+
+</style>
+
+</head>
 </html>
