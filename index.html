@@ -3,7 +3,68 @@
 <head>
     <title>Home</title>
     <style>
-        
+        body {
+            background-color: #121212;
+        }
+        h1 {
+            color: #ffeeee;
+            justify-content: left;
+            margin-top: 0;
+            font-family: "Rockwell", serif;
+            font-size: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: right;
+            padding: 10px;
+            background-color: #121212;
+        }
+        nav a {
+            color: #fffeee;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-family: "Rockwell", serif;
+            font-size: 15px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            color: #777;
+        }
+        nav img {
+            width: 30px;
+            height: 30px;
+        }
+        .profile-photo {
+            width: 200px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
     </style>
+</head>
+<body>
+    <nav>
+        <a href="about.html">About Me</a>
+        <a href="education.html">Education</a>
+        <a href="experience.html">Experience</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <h1>Grayson Morris</h1>
+    <p>
+    </p>
+    <img src="/Images/Me.png" alt="Grayson's photo" class="profile-photo">
+    <div class="social-links">
+        <a href="https://github.com/GraysonMor31"><i class="fa fa-github" style="font-size:36px"></i></a>
+        <a href="https://linkedin.com/in/graysonmorris31"><i class="fa fa-linkedin" style="font-size:36px"></i></a>
+        <a href="https://twitter.com/username"><i class="fa fa-twitter" style="font-size:36px"></i></a>
+        <a href="https://instagram.com/username"><i class="fa fa-instagram" style="font-size:36px"></i></a>
+    </div>
 </body>
 </html>
