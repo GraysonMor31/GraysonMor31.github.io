@@ -55,16 +55,82 @@ function App() {
         <p>Cybersecurity Intern</p>
         <p>Computer Science Student</p>
       </header>
-      <section className='About'></section>
-      <section className='Education'></section>
-      <section className='Experience'></section>
-      <section className='Skills'></section>
-      <section className='Projects'></section>
+      <section className='About'>
+        <h2>About Me</h2>
+        <p>I am a Cybersecurity Intern at a local company and a Computer Science student at the University of Colorado Colorado Springs. I have a passion for technology and learning new things. I am always looking for new opportunities to grow and expand my skillset.</p>
+      </section>
+      <section className='Education'>
+        <h2>Education</h2>
+        <div className='School'>
+          <h3>School 1</h3>
+          <p>Degree</p>
+          <p>Graduation Date</p>
+        </div>
+        <div className='School'>
+          <h3>School 2</h3>
+          <p>Degree</p>
+          <p>Graduation Date</p>
+        </div>
+        <div className='School'>
+          <h3>School 3</h3>
+          <p>Degree</p>
+          <p>Graduation Date</p>
+        </div>
+      </section>
+      <section className='Experience'>
+        <h2>Experience</h2>
+        <div className='Job'>
+          <h3>Job 1</h3>
+          <p>Job Title</p>
+          <p>Job Description</p>
+        </div>
+        <div className='Job'>
+          <h3>Job 2</h3>
+          <p>Job Title</p>
+          <p>Job Description</p>
+        </div>
+        <div className='Job'>
+          <h3>Job 3</h3>
+          <p>Job Title</p>
+          <p>Job Description</p>
+        </div>
+      </section>
+      <section className='Skills'>
+        <h2>Skills</h2>
+        <ul>
+          <li>Python</li>
+          <li>Java</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>SQL</li>
+          <li>Git</li>
+          <li>Linux</li>
+          <li>Networking</li>
+          <li>Security</li>
+        </ul>
+      </section>
+      <section className='Projects'>
+        <h2>Projects</h2>
+        <div className='Project'>
+          <h3>Project 1</h3>
+          <p>Description of Project 1</p>
+        </div>
+        <div className='Project'>
+          <h3>Project 2</h3>
+          <p>Description of Project 2</p>
+        </div>
+        <div className='Project'>
+          <h3>Project 3</h3>
+          <p>Description of Project 3</p>
+        </div>
+      </section>
       <section className='Contact'>
         <h2>Contact Me</h2>
         <p>Email: grayson.r.morris@gmail.com</p>
         <p>Phone: 719.237.6876</p>
-        <p>LinkedIn: <a href='https://www.linkedin.com/in/morris31/'>Grayson Morris</a></p>
+        <p>LinkedIn: <a href='https://www.linkedin.com/in/graysonmorris31/'>GraysonMorris31</a></p>
         <p>GitHub: <a href='https://github.com/GraysonMor31'>GraysonMor31</a></p>
         <h3>Or Send a Message</h3>
         <form onSubmit={sendEmail}>
