@@ -1,40 +1,60 @@
-nav {
+/* Dark ocean theme background */
+.navbar {
     background: linear-gradient(90deg, #003366, #004080, #00509e);
     padding: 15px 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     position: sticky;
     top: 0;
     z-index: 1000;
+    transition: background 0.3s ease; /* Smooth transition for background */
   }
   
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+  /* Navbar brand */
+  .navbar-brand {
+    color: white !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for brand color */
   }
   
-  nav ul li {
-    margin: 0 20px;
+  .navbar-brand:hover {
+    color: #00c4ff !important; /* Hover effect for navbar brand */
   }
   
-  nav ul li a {
-    text-decoration: none;
-    color: #ffffff;
+  /* Toggler button for small screens */
+  .navbar-toggler {
+    border-color: #00c4ff; /* Light blue border for the hamburger button */
+    transition: background-color 0.3s ease; /* Smooth transition for toggler background */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #00c4ff; /* Blue color for the hamburger icon */
+    transition: background-color 0.3s ease; /* Smooth transition for icon color */
+  }
+  
+  /* Collapse transition (for navbar links) */
+  .navbar-collapse {
+    transition: max-height 0.5s ease-in-out; /* Smooth expand/collapse transition */
+    overflow: hidden;
+  }
+  
+  /* Navbar nav links */
+  .navbar-nav .nav-link {
+    color: white; /* White text for nav links */
     font-size: 1.2em;
     font-weight: 500;
     transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
     position: relative;
   }
   
-  nav ul li a:hover {
+  /* Hover effect for nav links */
+  .navbar-nav .nav-link:hover {
     color: #00c4ff;
     transform: scale(1.1);
   }
   
-  /* Wave effect on hover */
-  nav ul li a::after {
+  /* Wave effect on hover for links */
+  .navbar-nav .nav-link::after {
     content: "";
     display: block;
     height: 3px;
@@ -48,28 +68,57 @@ nav {
     transform-origin: right;
   }
   
-  nav ul li a:hover::after {
+  /* Wave effect when hovered */
+  .navbar-nav .nav-link:hover::after {
     transform: scaleX(1);
     transform-origin: left;
   }
   
-  /* For small screens */
-/* Make sure the dropdown and navbar collapse work well on small screens */
-@media (max-width: 767px) {
+  /* For small screens (responsive adjustments) */
+  @media (max-width: 767px) {
+    /* Navbar toggler on small screens */
     .navbar-toggler {
       background-color: #00c4ff; /* Ocean-like color */
-    }
-  
-    .navbar {
-      background-color: #003366; /* Dark ocean theme */
     }
   
     .navbar-toggler-icon {
       background-color: white; /* White icon for better visibility */
     }
   
+    /* Navbar collapse transition */
+    .navbar-collapse {
+      transition: max-height 0.5s ease-in-out;
+    }
+  
     .navbar-nav {
       text-align: center;
+      transition: opacity 0.3s ease-in-out; /* Smooth transition for navbar items on mobile */
+    }
+  
+    /* Dropdown menu transition for small screens */
+    .navbar-nav .dropdown-menu {
+      background-color: #003366; /* Dark ocean background for dropdown */
+      border: 1px solid #004080; /* Matching border color */
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-10px);
+      transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+  
+    .navbar-nav .dropdown-item {
+      color: white; /* White text for dropdown items */
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+  
+    .navbar-nav .dropdown-item:hover {
+      background-color: #004080; /* Darker shade on hover */
+      color: #00c4ff; /* Light blue color on hover */
+    }
+  
+    /* Dropdown menu show effect */
+    .navbar-nav .dropdown-menu.show {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
     }
   }  
-  
