@@ -54,13 +54,22 @@ nav {
   }
   
   /* For small screens */
-@media (max-width: 768px) {
-    nav ul {
-      flex-direction: column;
+/* Make sure the dropdown and navbar collapse work well on small screens */
+@media (max-width: 767px) {
+    .navbar-toggler {
+      background-color: #00c4ff; /* Ocean-like color */
     }
   
-    nav ul li {
-      margin: 10px 0;
+    .navbar {
+      background-color: #003366; /* Dark ocean theme */
     }
-  }
+  
+    .navbar-toggler-icon {
+      background-color: white; /* White icon for better visibility */
+    }
+  
+    .navbar-nav {
+      text-align: center;
+    }
+  }  
   
