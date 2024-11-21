@@ -10,19 +10,22 @@ function ResponsiveNavbar() {
 
   return (
     <Navbar color="dark" dark expand="md">
-      <NavbarBrand href="/">My Portfolio</NavbarBrand>
+      <NavbarBrand href="/">Home</NavbarBrand>
       <NavbarToggler onClick={toggle} />
       <Collapse isOpen={isOpen} navbar>
         <Nav className="ml-auto" navbar>
           {/* Standard Nav Items for large screens */}
           <NavItem>
-            <NavLink href="/about">About</NavLink>
+            <NavLink href="/About">About</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/projects">Projects</NavLink>
+            <NavLink href="/Projects">Projects</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/contact">Contact</NavLink>
+            <NavLink href="/Resume">Resume</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="/Contact">Contact</NavLink>
           </NavItem>
 
           {/* Dropdown for small screens */}
@@ -32,6 +35,7 @@ function ResponsiveNavbar() {
               <DropdownMenu>
                 <DropdownItem href="/about">About</DropdownItem>
                 <DropdownItem href="/projects">Projects</DropdownItem>
+                <DropdownItem href="/resume">Resume</DropdownItem>
                 <DropdownItem href="/contact">Contact</DropdownItem>
               </DropdownMenu>
             </Dropdown>
