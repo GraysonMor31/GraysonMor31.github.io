@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink, Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import './Navbar.css';  // Import the custom CSS
 
 function ResponsiveNavbar() {
   const [isOpen, setIsOpen] = useState(false);

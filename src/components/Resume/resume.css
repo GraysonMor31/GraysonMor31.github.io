@@ -1,0 +1,65 @@
+/* Dark ocean theme background */
+.navbar {
+    background: linear-gradient(90deg, #003366, #004080, #00509e); /* Dark ocean gradient */
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: white; /* White text for nav links */
+    font-size: 1.1rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #00c4ff; /* Light blue color on hover */
+  }
+  
+  /* Navbar brand (Home) */
+  .navbar-brand {
+    color: white !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-brand:hover {
+    color: #00c4ff !important; /* Hover effect for navbar brand */
+  }
+  
+  /* Toggler button for small screens */
+  .navbar-toggler {
+    border-color: #00c4ff; /* Light blue border for the hamburger button */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #00c4ff; /* Blue color for the hamburger icon */
+  }
+  
+  /* Styling for the dropdown menu */
+  .navbar-nav .dropdown-menu {
+    background-color: #003366; /* Dark ocean background for dropdown */
+    border: 1px solid #004080; /* Matching border color */
+  }
+  
+  .navbar-nav .dropdown-item {
+    color: white; /* White text for dropdown items */
+  }
+  
+  .navbar-nav .dropdown-item:hover {
+    background-color: #004080; /* Darker shade on hover */
+    color: #00c4ff; /* Light blue color on hover */
+  }
+  
+  /* Styling the links for small screens */
+  .d-block.d-md-none {
+    display: block;
+  }
+  
+  /* For small screens, make the dropdown visible */
+  @media (max-width: 767px) {
+    .navbar-nav {
+      text-align: center;
+    }
+    
+    .navbar-nav .nav-item {
+      margin: 10px 0;
+    }
+  }  
