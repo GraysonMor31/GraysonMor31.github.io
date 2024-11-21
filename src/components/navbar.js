@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink, Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
-import './Navbar.css';  // Import the custom CSS
+import './navbar.css';  // Import the custom CSS
 
 function ResponsiveNavbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,16 +18,16 @@ function ResponsiveNavbar() {
         <Nav className="ml-auto" navbar>
           {/* Standard Nav Items for large screens */}
           <NavItem>
-            <NavLink href="/About">About</NavLink>
+          <Link to="/About" className="nav-link">About</Link>
           </NavItem>
           <NavItem>
-            <NavLink href="/Projects">Projects</NavLink>
+          <Link to="/Projects" className="nav-link">Projects</Link>
           </NavItem>
           <NavItem>
-            <NavLink href="/Resume">Resume</NavLink>
+          <Link to="/Resume" className="nav-link">Resume</Link>
           </NavItem>
           <NavItem>
-            <NavLink href="/Contact">Contact</NavLink>
+          <Link to="/Contact" className="nav-link">Contact</Link>
           </NavItem>
 
           {/* Dropdown for small screens */}
@@ -34,10 +35,18 @@ function ResponsiveNavbar() {
             <Dropdown isOpen={dropdownOpen} toggle={toggleDropdown}>
               <DropdownToggle caret>Menu</DropdownToggle>
               <DropdownMenu>
-                <DropdownItem href="/about">About</DropdownItem>
-                <DropdownItem href="/projects">Projects</DropdownItem>
-                <DropdownItem href="/resume">Resume</DropdownItem>
-                <DropdownItem href="/contact">Contact</DropdownItem>
+                <DropdownItem>
+                  <Link to="/About">About</Link>
+                </DropdownItem>
+                <DropdownItem>
+                  <Link to="/Projects">Projects</Link>
+                </DropdownItem>
+                <DropdownItem>
+                  <Link to="/Resume">Resume</Link>
+                </DropdownItem>
+                <DropdownItem>
+                  <Link to="/Contact">Contact</Link>
+                </DropdownItem>
               </DropdownMenu>
             </Dropdown>
           </NavItem>

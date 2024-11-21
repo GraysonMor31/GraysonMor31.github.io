@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./home.css";
 
 function Home() {
@@ -7,8 +8,8 @@ function Home() {
         <h1>Grayson Morris</h1>
         <p>Securing tomorrow's technology with innovative solutions</p>
         <div className="hero-buttons">
-            <a href="/Resume" className="btn">View My Resume</a>
-            <a href="#projects" className="btn btn-secondary">Explore My Projects</a>
+            <Link to="/Resume" className="btn btn-primary">View My Resume</Link>
+            <Link to="/Projects" className="btn btn-secondary">Explore My Projects</Link>
         </div>
     </div>
     );

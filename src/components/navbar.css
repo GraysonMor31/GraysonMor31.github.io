@@ -1,50 +1,37 @@
 /* Dark ocean theme background */
 .navbar {
-    background: linear-gradient(90deg, #003366, #004080, #00509e);
+    background: linear-gradient(90deg, #003366, #004080, #00509e); /* Dark ocean gradient */
     padding: 15px 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     position: sticky;
     top: 0;
     z-index: 1000;
-    transition: background 0.3s ease; /* Smooth transition for background */
+    transition: background 0.5s ease; /* Smooth transition for background */
   }
   
-  /* Navbar brand */
+  /* Navbar brand (Home) - Make font size match other links */
   .navbar-brand {
     color: white !important;
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1.2rem;  /* Match the size of the other navbar links */
+    font-weight: 500;
     transition: color 0.3s ease; /* Smooth transition for brand color */
   }
   
   .navbar-brand:hover {
     color: #00c4ff !important; /* Hover effect for navbar brand */
   }
-  
-  /* Toggler button for small screens */
-  .navbar-toggler {
-    border-color: #00c4ff; /* Light blue border for the hamburger button */
-    transition: background-color 0.3s ease; /* Smooth transition for toggler background */
+
+  .navbar-nav .nav-item {
+    margin: 0 25px; /* Adjust the spacing between each link */
   }
   
-  .navbar-toggler-icon {
-    background-color: #00c4ff; /* Blue color for the hamburger icon */
-    transition: background-color 0.3s ease; /* Smooth transition for icon color */
-  }
-  
-  /* Collapse transition (for navbar links) */
-  .navbar-collapse {
-    transition: max-height 0.5s ease-in-out; /* Smooth expand/collapse transition */
-    overflow: hidden;
-  }
-  
-  /* Navbar nav links */
+  /* Navbar links */
   .navbar-nav .nav-link {
     color: white; /* White text for nav links */
-    font-size: 1.2em;
+    font-size: 1.2rem; /* Same font size for all navbar links */
     font-weight: 500;
-    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
     position: relative;
+    transition: color 0.5s ease-in-out, transform 0.5s ease-in-out;
   }
   
   /* Hover effect for nav links */
@@ -64,11 +51,11 @@
     left: 0;
     right: 0;
     transform: scaleX(0);
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.5s ease-in-out;
     transform-origin: right;
   }
   
-  /* Wave effect when hovered */
+  /* Underline effect when hovered */
   .navbar-nav .nav-link:hover::after {
     transform: scaleX(1);
     transform-origin: left;
