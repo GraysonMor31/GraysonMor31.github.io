@@ -1,3 +1,9 @@
+/*!
+	Copyright (c) 2018 Jed Watson.
+	Licensed under the MIT License (MIT), see
+	http://jedwatson.github.io/classnames
+*/
+
 /**
  * @license React
  * react-dom.production.min.js
@@ -77,17 +83,6 @@
  * @see https://react-pdf-viewer.dev
  * @license https://react-pdf-viewer.dev/license
  * @copyright 2019-2023 Nguyen Huu Phuoc <me@phuoc.ng>
- */
-
-/**
- * React Router DOM v6.28.0
- *
- * Copyright (c) Remix Software Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.md file in the root directory of this source tree.
- *
- * @license MIT
  */
 
 /**
