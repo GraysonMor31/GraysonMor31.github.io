@@ -6,23 +6,19 @@
     position: sticky;
     top: 0;
     z-index: 1000;
-    transition: background 0.5s ease; /* Smooth transition for background */
+    transition: background 0.3s ease; /* Smooth transition for background */
   }
   
   /* Navbar brand (Home) - Make font size match other links */
   .navbar-brand {
     color: white !important;
-    font-size: 1.2rem;  /* Match the size of the other navbar links */
+    font-size: 1.2rem; /* Match the size of the other navbar links */
     font-weight: 500;
     transition: color 0.3s ease; /* Smooth transition for brand color */
   }
   
   .navbar-brand:hover {
     color: #00c4ff !important; /* Hover effect for navbar brand */
-  }
-
-  .navbar-nav .nav-item {
-    margin: 0 25px; /* Adjust the spacing between each link */
   }
   
   /* Navbar links */
@@ -31,7 +27,12 @@
     font-size: 1.2rem; /* Same font size for all navbar links */
     font-weight: 500;
     position: relative;
-    transition: color 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  /* Add margin to nav-item to create spacing between the links */
+  .navbar-nav .nav-item {
+    margin: 0 25px; /* Adjust spacing between each link */
   }
   
   /* Hover effect for nav links */
@@ -40,7 +41,7 @@
     transform: scale(1.1);
   }
   
-  /* Wave effect on hover for links */
+  /* Underline effect for nav links (adjusted for spacing) */
   .navbar-nav .nav-link::after {
     content: "";
     display: block;
@@ -48,14 +49,14 @@
     background: #00c4ff;
     position: absolute;
     bottom: -5px;
-    left: 0;
-    right: 0;
+    left: 10%; /* Add padding to the left of the underline */
+    right: 10%; /* Add padding to the right of the underline */
     transform: scaleX(0);
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.3s ease-in-out;
     transform-origin: right;
   }
   
-  /* Underline effect when hovered */
+  /* Keep the underline effect contained within each link */
   .navbar-nav .nav-link:hover::after {
     transform: scaleX(1);
     transform-origin: left;
@@ -83,29 +84,35 @@
     }
   
     /* Dropdown menu transition for small screens */
-    .navbar-nav .dropdown-menu {
-      background-color: #003366; /* Dark ocean background for dropdown */
-      border: 1px solid #004080; /* Matching border color */
-      opacity: 0;
-      visibility: hidden;
-      transform: translateY(-10px);
-      transition: opacity 0.3s ease, transform 0.3s ease;
-    }
+    /* Dropdown menu styling */
+.navbar-nav .dropdown-menu {
+    background-color: #003366; /* Dark ocean background for dropdown */
+    border: 1px solid #004080; /* Matching border color */
+    padding: 10px 0; /* Adjust padding */
+    opacity: 0; /* Initially hidden */
+    visibility: hidden; /* Initially hidden */
+    transform: translateY(-10px); /* Slightly move up */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
   
-    .navbar-nav .dropdown-item {
-      color: white; /* White text for dropdown items */
-      transition: background-color 0.3s ease, color 0.3s ease;
-    }
+  /* Show dropdown when open */
+  .navbar-nav .dropdown-menu.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0); /* Move back to position */
+  }
   
-    .navbar-nav .dropdown-item:hover {
-      background-color: #004080; /* Darker shade on hover */
-      color: #00c4ff; /* Light blue color on hover */
-    }
+  /* Dropdown item styling */
+  .navbar-nav .dropdown-item {
+    color: white; /* White text for dropdown items */
+    font-size: 1rem;
+    padding: 8px 15px; /* Add spacing for better usability */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
   
-    /* Dropdown menu show effect */
-    .navbar-nav .dropdown-menu.show {
-      opacity: 1;
-      visibility: visible;
-      transform: translateY(0);
-    }
-  }  
+  /* Dropdown item hover effect */
+  .navbar-nav .dropdown-item:hover {
+    background-color: #004080; /* Darker shade on hover */
+    color: #00c4ff; /* Light blue color on hover */
+  }
+}
