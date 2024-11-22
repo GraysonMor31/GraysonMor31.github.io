@@ -8,6 +8,12 @@
     z-index: 1000;
     transition: background 0.3s ease; /* Smooth transition for background */
   }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: center; /* Center the links */
+    width: 100%; /* Ensure it spans the navbar */
+  }
   
   /* Navbar brand (Home) - Make font size match other links */
   .navbar-brand {
