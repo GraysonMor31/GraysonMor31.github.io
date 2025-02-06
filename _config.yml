@@ -67,7 +67,7 @@ about_content: | # this will include new lines to allow paragraphs
   continue to learn and grow and offer my skills to a new team.
 
 # Skills Section
-about_me:
+skills:
   - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
