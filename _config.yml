@@ -41,22 +41,32 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
+  I recently graduated from Colorado State University with a BSc in Computer Science, however my passion for computing 
+  started way before that. Starting about middle school I had a "hobby" of taking things apart. I wanted to know everything 
+  about how anything electrical worked. After breaking one too many small appliances I focused my efforts in a more constructive 
+  direction, and built my first computer my freshman year of high school. I was hooked, getting to know these systems that to 
+  most just seemed like just another tool or were pure magic to others fascinated me. I wanted to know more and more, but unfortunately 
+  my high school didn't really offer any computer science classes, so I decided engineering was the next best thing, I loved math and 
+  physics and I got to use computers everyday so how different could it be? Well I found out pretty quickly it was very different and I 
+  actually didn't love doing engineering, by my first year of college I found myself stuck at a crossroads. Stay in engineering and be 
+  somewhat miserable for the foreseeable future or switch to something else. I did some research and found that CSU offered a CIS program, 
+  that was a mix of business and computer science, "that would be good, practical business skills and computers im sold" I convinced myself, 
+  but that only lasted a semester, the business classes bored me and the computer classes were surface level at best. 
 
-I recently graduated from Colorado State University with a BSc in Computer Science, however my passion for computing started way before that. Starting about middle school I had a "hobby" of taking things apart. I wanted to know everything about how anything electrical worked.
-After breaking one too many small appliances I focused my efforts in a more constructive direction, and built my first computer my freshman year of high school. I was hooked, getting to know these systems that to most just seemed like just another tool or were pure magic to others
-fascinated me. I wanted to know more and more, but unfortunately my high school didn't really offer any computer science classes, so I decided engineering was the next best thing, I loved math and physics and I got to use computers everyday so how different could it be? Well I found
-out pretty quickly it was very different and I actually didn't love doing engineering, by my first year of college I found myself stuck at a crossroads. Stay in engineering and be somewhat miserable for the foreseeable future or switch to something else. I did some research and found
-that CSU offered a CIS program, that was a mix of business and computer science, "that would be good, practical business skills and computers im sold" I convinced myself, but that only lasted a semester, the business classes bored me and the computer classes were surface level at best. 
-
-The following summer I was talking with some family members who worked in the cybersecurity sector and even shadowed them at their jobs a few times. After that I knew exactly what I wanted to do. I switched to computer science and never looked back. I knew my future was in IT and cyberseurity. I began to ataully enjoy 
-my classes learning to code and effectively problem solve. Learning the ins and outs of hardware, software, networking, and security principles. I was like a sponge. I was able to get a job at the IT department at the student center at CSU and I loved it. I got to handle and troubleshoot a myriad of problems and learn more and more 
-about the systems I was working on. I got to know different IT teams and got to do some work configuring the network, or building systems, or offering trainings to different departments outside of IT. Then my senior year I got the oppurtunity to intern for Woodward, Inc. as an IT Cybersecurity intern. I started working mostly with SIEM
-and monitoring systems. This was a whole new world to me, I thought I Knew IT inside and out, but manufacturing was its own beast. There was the IT side I was used to but also the OT side which was new to me. This was a good thing though I was exposure and a learning oppurtunity. Eventually I moved more to the compliance side of
-IT security where I spent most of my time trialing new AI complaince management systems and conducting third party risk assessments. I loved it, I got to work with a lot of different people and learn a lot of new things. I am now looking for a full time position in IT and/or cybersecurity where I can continue to learn and grow and offer
-my skills to a new team.
+  The following summer I was talking with some family members who worked in the cybersecurity sector and even shadowed them at their jobs a few 
+  times. After that I knew exactly what I wanted to do. I switched to computer science and never looked back. I knew my future was in IT and 
+  cybersecurity. I began to actually enjoy my classes learning to code and effectively problem solve. Learning the ins and outs of hardware, software, 
+  networking, and security principles. I was like a sponge. I was able to get a job at the IT department at the student center at CSU and I loved it. 
+  I got to handle and troubleshoot a myriad of problems and learn more and more about the systems I was working on. I got to know different IT teams and 
+  got to do some work configuring the network, or building systems, or offering trainings to different departments outside of IT. Then my senior year I 
+  got the opportunity to intern for Woodward, Inc. as an IT Cybersecurity intern. I started working mostly with SIEM and monitoring systems. This was a 
+  whole new world to me, I thought I Knew IT inside and out, but manufacturing was its own beast. There was the IT side I was used to but also the OT 
+  side which was new to me. This was a good thing though I was exposure and a learning opportunity. Eventually I moved more to the compliance side of IT 
+  security where I spent most of my time trialing new AI compliance management systems and conducting third party risk assessments. I loved it, I got to 
+  work with a lot of different people and learn a lot of new things. I am now looking for a full time position in IT and/or cybersecurity where I can 
+  continue to learn and grow and offer my skills to a new team.
 
 # Skills Section
-
 skills:
   - title: Skills
     layout: list
