@@ -20,17 +20,7 @@ darkmode: true
 github_username:  graysonmor31
 linkedin_username: graysonmorris31
 twitter_username: graysonmor31
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickrfantastic team.
-_username: jekyll
 instagram_username: graysonmorris01
-# xing_username: jekyll
-# pinterest_username: jekyll
-#youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
@@ -68,23 +58,27 @@ my skills to a new team.
 # Skills Section
 
 skills:
-  - title: Programming Languages
-    content: | 
-      - C++
-      - C#
-      - Python
-      - Java
-      - Scala
-      - SQL
-      - Bash
-      - Powershell
+  - title: Skills
+    layout: list
+    content:
+      - layout: left
+        title: Programming Languages
+        content:
+          - C++
+          - C#
+          - Python
+          - Java
+          - Scala
+          - SQL
+          - Bash
+          - Powershell
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
         title: Super awesome project
-        link: github.com/sproogen
+        link: github.com/garysonmor31/homelab
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
