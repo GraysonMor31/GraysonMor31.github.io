@@ -68,15 +68,37 @@ about_content: | # this will include new lines to allow paragraphs
 
 # Skills Section
 about_me:
-  - title: A Little More About Me
+  - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and cybersecurity some of my other interests and hobbies are:
-      - Snowboarding
-      - Hiking
-      - Tinkering with computers
-      - Gaming
-      - Reading
+      Programming Languages:
+      - C++
+      - C#
+      - Python
+      - Java
+      - SQL
+      - Bash
+      - PowerShell
+
+      IT Tools:
+      - FreshService (ITSM)
+      - Active Directory
+      - SCCM
+      - Microsoft 365
+
+      Cybersecurity Tools:
+      - SentinelOne (XDR/EDR DataLake)
+      - Rapid7 (SEIM, Vulnerability Management)
+      - AuditBoard (Compliance Management)
+
+      Cybersecurity Frameworks:
+      - NIST CSF
+      - NIST 800-53
+      - NIST 800-171
+      - CIS Controls
+      - MITRE ATT&CK
+
+
 
 # Projects Section
 projects:
