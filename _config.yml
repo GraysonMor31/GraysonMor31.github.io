@@ -48,19 +48,29 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I recently graduated from Colorado State University with a BSc in Computer Science, but my passion for computing started long before that. As early as middle school, I had a habit of taking things apart just to see how they worked. I wanted to understand everything about electrical systems, even if it meant breaking a few small appliances along the way. Eventually, I channeled that curiosity into something more constructive—building my first computer during my freshman year of high school.
+  I recently graduated from Colorado State University with a BSc in Computer Science, but my passion for computing started long before that. As early as middle school, I had a habit of taking things apart just to see 
+  how they worked. I wanted to understand everything about electrical systems, even if it meant breaking a few small appliances along the way. Eventually, I channeled that curiosity into something more constructive—building 
+  my first computer during my freshman year of high school.
 
-  From that moment on, I was hooked. Computers, to most people, were just another tool or even pure magic, but I wanted to know more. Unfortunately, my high school didn’t offer computer science classes, so I turned to engineering as the next best thing. I loved math and physics, and since engineers worked with computers daily, how different could it be? As it turned out, very different. I quickly realized engineering wasn’t for me and found myself at a crossroads—stay in a field that didn’t excite me or switch to something else.
+  From that moment on, I was hooked. Computers, to most people, were just another tool or even pure magic, but I wanted to know more. Unfortunately, my high school didn’t offer computer science classes, so I turned to 
+  engineering as the next best thing. I loved math and physics, and since engineers worked with computers daily, how different could it be? As it turned out, very different. I quickly realized engineering wasn’t for me 
+  and found myself at a crossroads—stay in a field that didn’t excite me or switch to something else.
 
-  After some research, I discovered CSU’s Computer Information Systems (CIS) program, which blended business and computer science. It seemed like a practical choice, so I gave it a shot. However, after one semester, I realized the business side didn’t interest me, and the computer science courses barely scratched the surface of what I wanted to learn.
+  After some research, I discovered CSU’s Computer Information Systems (CIS) program, which blended business and computer science. It seemed like a practical choice, so I gave it a shot. However, after one semester, I realized 
+  the business side didn’t interest me, and the computer science courses barely scratched the surface of what I wanted to learn.
 
-  That summer, I had the opportunity to shadow family members working in cybersecurity. Seeing their work firsthand made everything click—I knew exactly what I wanted to do. I switched my major to Computer Science with a concentration in Networks & Security, and I never looked back.
+  That summer, I had the opportunity to shadow family members working in cybersecurity. Seeing their work firsthand made everything click—I knew exactly what I wanted to do. I switched my major to Computer Science with a 
+  concentration in Networks & Security, and I never looked back.
 
-  With my new focus, I fully embraced learning. Programming, problem-solving, hardware, software, networking, security principles—I absorbed everything I could. I landed a job at CSU’s IT department, where I gained hands-on experience troubleshooting systems, configuring networks, building workstations, and even leading training sessions for non-IT departments. This role gave me exposure to different IT teams and strengthened my technical and communication skills.
+  With my new focus, I fully embraced learning. Programming, problem-solving, hardware, software, networking, security principles—I absorbed everything I could. I landed a job at CSU’s IT department, where I gained hands-on 
+  experience troubleshooting systems, configuring networks, building workstations, and even leading training sessions for non-IT departments. This role gave me exposure to different IT teams and strengthened my technical and 
+  communication skills.
 
-  In my senior year, I took my experience a step further by interning at Woodward, Inc. as an IT Cybersecurity Intern. Initially, I worked with SIEM tools and monitoring systems, which introduced me to a new side of IT—Operational Technology (OT) in a manufacturing environment. IT security in this space was entirely different from traditional enterprise IT, and learning about its unique challenges was eye-opening.
+  In my senior year, I took my experience a step further by interning at Woodward, Inc. as an IT Cybersecurity Intern. Initially, I worked with SIEM tools and monitoring systems, which introduced me to a new side of IT—Operational 
+  Technology (OT) in a manufacturing environment. IT security in this space was entirely different from traditional enterprise IT, and learning about its unique challenges was eye-opening.
 
-  Later in my internship, I shifted toward compliance and risk management, where I tested AI-driven compliance management tools and conducted third-party risk assessments. I loved this work because it allowed me to collaborate with diverse teams while gaining a deeper understanding of security frameworks and governance.
+  Later in my internship, I shifted toward compliance and risk management, where I tested AI-driven compliance management tools and conducted third-party risk assessments. I loved this work because it allowed me to collaborate with 
+  diverse teams while gaining a deeper understanding of security frameworks and governance.
 
   Now, I’m looking for a full-time role in <mark>IT or Cybersecurity</mark>, where I can apply my skills, continue learning, and contribute to a team that values security, efficiency, and innovation.
 
@@ -73,7 +83,7 @@ content:
         caption: 2020 - 2024
         sub_title: BSc Computer Science
         quote: >
-          "The main function of education is to teach one to think sensibly and critically. It is not about acquiring knowledge, but about fostering the ability to think, question, and understand. Intelligence combined with character - that is the ultimate goal of a true education. - Alan Turing"
+          The main function of education is to teach one to think sensibly and critically. It is not about acquiring knowledge, but about fostering the ability to think, question, and understand. Intelligence combined with character - that is the ultimate goal of a true education. - Alan Turing
         description: | # this will include new lines to allow paragraphs
           During my time at CSU, I gained a solid foundation in computer science. My coursework covered a wide range of topics, including general programming and OOP's principles, data structures and algorithms,
           large scale software development, and electives in web development and ethical computing practices.
