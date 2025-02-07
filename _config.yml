@@ -62,22 +62,29 @@ about_content: | # this will include new lines to allow paragraphs
 
   Later in my internship, I shifted toward compliance and risk management, where I tested AI-driven compliance management tools and conducted third-party risk assessments. I loved this work because it allowed me to collaborate with diverse teams while gaining a deeper understanding of security frameworks and governance.
 
-  Now, I’m looking for a <mark>full-time</mark> role in <mark>IT or cybersecurity</mark>, where I can apply my skills, continue learning, and contribute to a team that values security, efficiency, and innovation.
+  Now, I’m looking for a full-time role in <mark>IT or Cybersecurity</mark>, where I can apply my skills, continue learning, and contribute to a team that values security, efficiency, and innovation.
 
 content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
+        title: Colorado State University
+        caption: 2020 - 2024
         sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          During my time at CSU, I gained a solid foundation in computer science. My coursework covered a wide range of topics, including general programming and OOP's principles, data structures and algorithms,
+          large scale software development, and electives in web development and ethical computing practices.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          On top of that my concentration in <mark>Networks & Security</mark> gave me a deeper understanding of network protocols, security principles, and hands-on experience with network administration and cybersecurity tools.
+          I learned many skills including safe programming practices, secure network design, network protocols, cryptography, and secure system configuration.
+      - layout: left
+        title: CompTIA
+        caption: 2025
+        sub_title: Security+
+        description: | # this will include new lines to allow paragraphs
+          I am currently taking a prep course for the Security+ certification. The course covers a wide range of topics including security controls, risk management, network security, IAM, cryptography, operational security,
+          compliance, resilience, and incident response. This course builds on my prior knowledge from college and will help me prepare for a career in cybersecurity. I plan to take the exam in April.
   
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
