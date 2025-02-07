@@ -72,6 +72,8 @@ content:
         title: Colorado State University
         caption: 2020 - 2024
         sub_title: BSc Computer Science
+        quote: >
+          "The main function of education is to teach one to think sensibly and critically. It is not about acquiring knowledge, but about fostering the ability to think, question, and understand. Intelligence combined with character - that is the ultimate goal of a true education. - Alan Turing"
         description: | # this will include new lines to allow paragraphs
           During my time at CSU, I gained a solid foundation in computer science. My coursework covered a wide range of topics, including general programming and OOP's principles, data structures and algorithms,
           large scale software development, and electives in web development and ethical computing practices.
