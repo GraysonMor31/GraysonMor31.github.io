@@ -65,6 +65,18 @@ about_content: | # this will include new lines to allow paragraphs
   Now, I’m looking for a <mark>full-time</mark> role in <mark>IT or cybersecurity</mark>, where I can apply my skills, continue learning, and contribute to a team that values security, efficiency, and innovation.
 
 content:
+  - title: Skills
+    layout: list
+    content:
+      - layout: left
+        title: Programming Languages
+        description: | # this will include new lines to allow paragraphs
+          - C++
+          - C#
+          - Python
+          - PowerShell
+          - Bash
+        
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
