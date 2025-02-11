@@ -73,6 +73,7 @@ content:
 
           On top of that my concentration in <mark>Networks & Security</mark> gave me a deeper understanding of network protocols, security principles, and hands-on experience with network administration and cybersecurity tools.
           I learned many skills including safe programming practices, secure network design, network protocols, cryptography, and secure system configuration.
+
       - layout: left
         title: CompTIA
         caption: 2025
@@ -97,7 +98,9 @@ content:
           small database. I also got the opportunity to lead a vulnerability assessment and remediation project for the department. This project involved using the Tenable cloud environment to scan for vulnerabilities and then remediating them through patching and
           configuration changes. Lastly, I was involved in a large file migration and server decommissioning project. This project involved moving files from an old server to various SharePoint sites for over 30 sub departments of the student center, and then ensuring old data was securely deleted and inaccessible.
           Overall, this role has given me a lot of experience in IT support and has helped me develop my technical and communication skills.
-        title: Colorado State University
+      
+      - layout: left
+        title: Woodward, Inc.
         link: woodward.com
         sub_title: IT Support Specialist
         caption: May 2024 - December 2024
