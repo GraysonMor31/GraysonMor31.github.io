@@ -22,9 +22,9 @@ twitter_username: graysonmorris31
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
+- title: Personal Medium Blog
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  url: https://medium.com/@grayson.r.morris
 
 
 # About Section
@@ -90,10 +90,25 @@ content:
         sub_title: IT Support Specialist
         caption: May 2023 - Present
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          Solving complex IT problems day in and day out
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
+          The IT department at CSU was my first real exposure to IT support and working in the tech industry. I worked as a student technician, where I was responsible for troubleshooting and resolving technical issues for faculty, and staff. After I graduated
+          I was hired on as a full-time IT Support Specialist. In this role, I have gained experience in a wide range of IT support tasks including troubleshooting hardware and software issues,imaging new workstations using PDQ Smart Deploy, managing and managing a
+          small database. I also got the opportunity to lead a vulnerability assessment and remediation project for the department. This project involved using the Tenable cloud environment to scan for vulnerabilities and then remediating them through patching and
+          configuration changes. Lastly, I was involved in a large file migration and server decommissioning project. This project involved moving files from an old server to various SharePoint sites for over 30 sub departments of the student center, and then ensuring old data was securely deleted and inaccessible.
+          Overall, this role has given me a lot of experience in IT support and has helped me develop my technical and communication skills.
+        title: Colorado State University
+        link: woodward.com
+        sub_title: IT Support Specialist
+        caption: May 2024 - December 2024
+        quote: >
+          Securing data in IT and OT environments
+        description: | # this will include new lines to allow paragraphs
+            At Woodward, I worked as an IT Cybersecurity Intern. I was responsible for monitoring and maintaining the security of the company's IT systems. I worked with SIEM tools, monitoring systems, and compliance management tools. 
+            Towards the end of my internship I mostly conducted third-party risk assessments and worked with diverse teams to ensure the company's security posture was up to date.
+            I also did some testing on an AI compliance tool to speed up risk reviews and audits. To add, I documented new policies and procedures a new 3rd Party Risk Management framework and system.
+            I would present any findings or issues to upper management on a weekly basis as well. This internship gave me a lot of experience in the cybersecurity field and helped me understand the unique challenges of IT security in a manufacturing environment.
+  
   - title: Skills
     layout: list
     content:
@@ -103,36 +118,52 @@ content:
           - C++
           - C#
           - Python
+          - Scala
           - PowerShell
           - Bash
+      - layout: left
+        title: Networking
+        description: | # this will include new lines to allow paragraphs
+          - Network Protocols: TCP/IP, UDP, HTTP/S, DNS, DHCP, ARP
+          - Network Security: Firewalls, VPNs, IDS/IPS
+          - Network Administration: VLANs, Subnetting
+          - Network Tools: Wireshark, Nmap, TraceRoute
+      - layout: left
+        title: Security
+        description: | # this will include new lines to allow paragraphs
+          - Security Principles: CIA Triad, Defense in Depth
+          - Security Tools: Wireshark, Nmap, Metasploit, SIEM, XDR/EDR, Vulnerability Scanners
+          - Security Practices: Secure Development Lifecycle
+          - Security Frameworks: NIST CSF, NIST 800-53, NIST 800-171, CIS Controls v8, DISA STIGs
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Ethical Hacking/Pen-Testing Suite
+        link: github.com/graysonmor31/
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  Ethical Hacking/Pen-Testing Suite
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: github.com/graysonmor31/
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          I started this project as a simple way to learn more about the tools in Kali Linux. I set out initially to learning some basics of network programming in Python by focusing on OSINT on domains and IP addresses. This eventually will grow into
+          basic exploitation and post-exploitation tools. Overall the goal is to emulate the tools used day in and day by Red Teams and get a better sense of what goes into penetration testing.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      Alongside my interests in networks and cybersecurity some of my other interests and hobbies are:
+      - Camping
+      - Fishing
+      - Snowboarding
+      - Building Computers
+      - Playing Video Games
+      - Reading bio's of inspirational people
 
       Look at this cool image  
       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
