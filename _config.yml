@@ -107,10 +107,10 @@ content:
         quote: >
           Securing data in IT and OT environments
         description: | # this will include new lines to allow paragraphs
-            At Woodward, I worked as an IT Cybersecurity Intern. I was responsible for monitoring and maintaining the security of the company's IT systems. I worked with SIEM tools, monitoring systems, and compliance management tools. 
-            Towards the end of my internship I mostly conducted third-party risk assessments and worked with diverse teams to ensure the company's security posture was up to date.
-            I also did some testing on an AI compliance tool to speed up risk reviews and audits. To add, I documented new policies and procedures a new 3rd Party Risk Management framework and system.
-            I would present any findings or issues to upper management on a weekly basis as well. This internship gave me a lot of experience in the cybersecurity field and helped me understand the unique challenges of IT security in a manufacturing environment.
+          At Woodward, I worked as an IT Cybersecurity Intern. I was responsible for monitoring and maintaining the security of the company's IT systems. I worked with SIEM tools, monitoring systems, and compliance management tools. 
+          Towards the end of my internship I mostly conducted third-party risk assessments and worked with diverse teams to ensure the company's security posture was up to date.
+          I also did some testing on an AI compliance tool to speed up risk reviews and audits. To add, I documented new policies and procedures a new 3rd Party Risk Management framework and system.
+          I would present any findings or issues to upper management on a weekly basis as well. This internship gave me a lot of experience in the cybersecurity field and helped me understand the unique challenges of IT security in a manufacturing environment.
   
   - title: Skills
     layout: list
